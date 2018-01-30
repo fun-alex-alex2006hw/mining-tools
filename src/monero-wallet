@@ -1,0 +1,2 @@
+git clone https://github.com/moneromooo-monero/monero-wallet-generator.git monero-wallet
+(cd monero-wallet;serve - 8080)

@@ -1,0 +1,8 @@
+git clone https://github.com/monero-project/monero
+cd monero/
+make -j 8
+mkdir -p /opt/monero-dev/libs /opt/monero-dev/headers
+cp -r ./build/release/bin/* /opt/monero/
+find ./build/ -name '*.a' -exec cp -v {} /opt/monero-dev/libs  \;
+rsync -zarv --include="*/" --include="*.h" --include="*.hpp" --exclude="*" --prune-empty-dirs ./ /opt/monero-dev/headers
+
