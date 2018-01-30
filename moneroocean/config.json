@@ -18,7 +18,7 @@
         {
             "url": "gulf.moneroocean.stream:10001",   // URL of mining server
             "user": "489A74o7uKAfP26uxxFrtq8ttKZfZFfuc44oTyXBAWVecwmSAg1niZVVDVxSRmcyuShnbTqXBzQmCPxb5aoaWX6rAhiNmbL",                        // username for mining server
-            "pass": "c1",                       // password for mining server
+            "pass": "SEED",                       // password for mining server
             "keepalive": true,                 // send keepalived for prevent timeout (need pool support)
             "nicehash": false                  // enable nicehash/xmrig-proxy support
         }
