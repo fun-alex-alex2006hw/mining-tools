@@ -1,0 +1,2 @@
+DATE=$(date +%Y%m%d%s)
+./nheqminer -l zec.slushpool.com:4444 -u slushbug.C1${DATE} -p x -t 8
