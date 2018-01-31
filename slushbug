@@ -1,2 +1,2 @@
 DATE=$(date +%Y%m%d%s)
-./linux/nheqminer -l zec.slushpool.com:4444 -u slushbug.C1 -p x -t 7
+./linux/nheqminer -l zec.slushpool.com:4444 -u slushbug.C1PL -p x -t 16
