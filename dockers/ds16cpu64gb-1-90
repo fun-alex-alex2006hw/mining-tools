@@ -1,5 +1,5 @@
 for runIndex in {1..89};do
   DATE=$(date +%Y%m%d%s)
   echo $DATE : $runIndex
-  docker run -d alex2006hw/nheqminer:1.0.0 /nheqminer -l zec.slushpool.com:4444 -u slushbug.ds16cpu64gb${runIndex} -p x -t 4
+  docker run -d alex2006hw/nheqminer:1.0.0 /nheqminer -l zec.slushpool.com:4444 -u slushbug.ds16cpu64gb${runIndex} -p x -t 2
 done

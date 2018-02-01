@@ -13,7 +13,7 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "gulf.moneroocean.stream:10001", "wallet_address" : "489A74o7uKAfP26uxxFrtq8ttKZfZFfuc44oTyXBAWVecwmSAg1niZVVDVxSRmcyuShnbTqXBzQmCPxb5aoaWX6rAhiNmbL", "pool_password" : "C1PLdocker", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "gulf.moneroocean.stream:10001", "wallet_address" : "489A74o7uKAfP26uxxFrtq8ttKZfZFfuc44oTyXBAWVecwmSAg1niZVVDVxSRmcyuShnbTqXBzQmCPxb5aoaWX6rAhiNmbL", "pool_password" : "Sampledocker", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*

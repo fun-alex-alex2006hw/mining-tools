@@ -1,2 +1,2 @@
 DATE=$(date +%Y%m%d%s)
-docker run -d alex2006hw/nheqminer:1.0.0 /nheqminer -l zec.slushpool.com:4444 -u slushbug.C1PL${DATE} -p x -t 16
+docker run -d alex2006hw/nheqminer:1.0.0 /nheqminer -l zec.slushpool.com:4444 -u slushbug.C1PL${DATE} -p x -t 1
