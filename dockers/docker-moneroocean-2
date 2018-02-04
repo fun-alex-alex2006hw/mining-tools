@@ -1,2 +1,0 @@
-docker run --rm -it -u $(id -u):$(id -g) --name xmrstak2 -v "$PWD":/mnt alex2006hw/xmrminer:1.0.0
-#--config config.txt
