@@ -1,0 +1,2 @@
+docker run --rm -it -u $(id -u):$(id -g) --name nicehash -v "$PWD":/mnt alex2006hw/xmrminer:1.0.1
+#--config config.txt
