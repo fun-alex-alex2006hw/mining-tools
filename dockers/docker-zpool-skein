@@ -1,0 +1,4 @@
+DATE=$(date +%Y%m%d%s)
+docker run -d -u $(id -u):$(id -g) --name zpool-skein usrcoin/cpuminer:1.0.0 \
+  -a skein -o stratum+tcp://skein.mine.zpool.ca:4933 \
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 2

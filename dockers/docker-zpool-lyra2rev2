@@ -1,0 +1,4 @@
+DATE=$(date +%Y%m%d%s)
+docker run -d -u $(id -u):$(id -g) --name zpool-lyra2rev2 usrcoin/cpuminer:1.0.0 \
+  -a lyra2rev2 -o stratum+tcp://lyra2v2.mine.zpool.ca:4533 \
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:SeedUT -t 2

@@ -1,0 +1,4 @@
+DATE=$(date +%Y%m%d%s)
+docker run -d -u $(id -u):$(id -g) --name yiimp-c11 usrcoin/cpuminer:1.0.0 \
+  -a c11 -o stratum+tcp://yiimp.eu:3573 \
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 2

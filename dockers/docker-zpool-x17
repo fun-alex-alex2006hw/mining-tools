@@ -1,0 +1,4 @@
+DATE=$(date +%Y%m%d%s)
+docker run -d -u $(id -u):$(id -g) --name zpool-x17 usrcoin/cpuminer:1.0.0 \
+  -a x17 -o stratum+tcp://x17.mine.zpool.ca:3737 \
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 2
