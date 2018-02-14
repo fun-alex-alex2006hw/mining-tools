@@ -1,0 +1,4 @@
+DATE=$(date +%Y%m%d%s)
+docker run -d -u $(id -u):$(id -g) --name nicehash-cpuminer usrcoin/cpuminer:1.0.0 \
+  -a lyra2rev2 -o stratum+tcp://lyra2rev2.usa.nicehash.com:3347 \
+  -O 3Nvhv1rPUztPbTwskkcAbo75t7x1fmnoEp:x -t 2

@@ -1,0 +1,22 @@
+{
+	"_comment1" : "ref: http://www.zpool.ca/",
+	"_comment2" : "equihash : equihash.mine.zpool.ca:2142",
+
+  -o stratum+tcp://<algo>.mine.zpool.ca:<PORT> -u <WALLET_ADDRESS> [-p c=<SYMBOL>,<OPTIONS>]
+
+	"api-bind" : "127.0.0.1:4048",
+
+	"url" : "stratum+tcp://mine.xpool.ca:1131",
+	"user" : "XeVrkPrWB7pDbdFLfKhF1Z3xpqhsx6wkH3",
+	"pass" : "cpuminer",
+
+	"algo" : "x11",
+	"threads" : 0,
+	"cpu-priority" : 0,
+	"cpu-affinity" : -1,
+
+	"benchmark" : false,
+	"debug" : false,
+	"protocol": false,
+	"quiet" : false
+}

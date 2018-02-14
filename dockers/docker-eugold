@@ -1,2 +1,2 @@
 DATE=$(date +%Y%m%d%s)
-docker run -d --name eugold alex2006hw/nheqminer:1.0.0 /nheqminer -l new.eu.pool.gold:3044 -u GevECfjLcMvPVYShtZUvfU4UtghWLx4S9R.BuildUC${DATE} -p x --donate-level 0 -t 2
+docker run -d --name eugold alex2006hw/nheqminer:1.0.0 /nheqminer -l new.eu.pool.gold:3044 -u GevECfjLcMvPVYShtZUvfU4UtghWLx4S9R.BuildUC${DATE} -p x --donate-level 0 -t 1
