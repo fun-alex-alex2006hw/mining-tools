@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-quark usrcoin/cpuminer:1.0.0 \
   -a quark -o stratum+tcp://quark.mine.zpool.ca:4033 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 2
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 1

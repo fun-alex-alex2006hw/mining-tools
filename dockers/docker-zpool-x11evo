@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-x11evo usrcoin/cpuminer:1.0.0 \
   -a x11evo -o stratum+tcp://x11evo.mine.zpool.ca:3553 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 2
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 1

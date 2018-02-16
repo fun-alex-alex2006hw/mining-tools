@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-bitcore usrcoin/cpuminer:1.0.0 \
   -a timetravel10 -o stratum+tcp://bitcore.mine.zpool.ca:3556 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 2
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 1

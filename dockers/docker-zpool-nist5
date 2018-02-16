@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-nist5 usrcoin/cpuminer:1.0.0 \
   -a nist5 -o stratum+tcp://nist5.mine.zpool.ca:3833 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 2
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 1
