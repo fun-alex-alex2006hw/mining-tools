@@ -13,9 +13,9 @@
  */
 "pool_list" :
 [
-  {"pool_address" : "cryptonight.eu.nicehash.com:3355", "wallet_address" :
-  "3Nvhv1rPUztPbTwskkcAbo75t7x1fmnoEp",
-  "pool_password" : "SEEDmonero", "use_nicehash" : true, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "gulf.moneroocean.stream:80", "wallet_address" :
+  "489A74o7uKAfP26uxxFrtq8ttKZfZFfuc44oTyXBAWVecwmSAg1niZVVDVxSRmcyuShnbTqXBzQmCPxb5aoaWX6rAhiNmbL",
+  "pool_password" : "Builddocker", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
 ],
 
 /*

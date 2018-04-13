@@ -17,6 +17,8 @@ tools used for mining with CPU
 ```
 # enable hugepage
 sudo echo 128 > /proc/sys/vm/nr_hugepages
+echo always > /sys/kernel/mm/transparent_hugepage/enabled
+sysctl -w vm.nr_hugepages=128
 # mining
 sudo ./monero
 ```
