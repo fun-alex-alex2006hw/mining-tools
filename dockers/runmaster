@@ -1,9 +1,9 @@
-./docker-zpool-lbry            
+./docker-zpool-keccak
 ./docker-zpool-equihash
 ./docker-zpool-phi               
 ./docker-zpool-x14                
 ./docker-zpool-nist5            
-./docker-zpool-polytimos             
+#./docker-zpool-polytimos             
 ./docker-zpool-x11evo                 
 ./docker-zpool-c11                     
 ./docker-zpool-xevan                    
@@ -11,6 +11,6 @@
 ./docker-zpool-skunk                
 ./docker-zpool-timetravel                
 ./docker-zpool-yescrypt                   
-./docker-zpool-m7m
-./docker-zpool-groestl
+#./docker-zpool-m7m
+#./docker-zpool-groestl
 ./docker-zpool-bitcore

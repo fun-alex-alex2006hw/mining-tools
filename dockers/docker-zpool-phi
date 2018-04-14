@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-phi usrcoin/cpuminer:1.0.0 \
   -a phi1612 -o stratum+tcp://phi.mine.zpool.ca:8333 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 1
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:seedUT -t 16

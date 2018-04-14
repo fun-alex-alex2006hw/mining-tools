@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d -u $(id -u):$(id -g) --name zpool-m7m usrcoin/cpuminer:1.0.0 \
   -a m7m -o stratum+tcp://m7m.mine.zpool.ca:6033 \
-  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 1
+  -O 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631:x -t 16
