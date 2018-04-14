@@ -8,5 +8,5 @@ git clone https://github.com/fun-alex-alex2006hw/xmr-stak.git xmrig
 cd xmrig
 mkdir build
 cd build
-cmake ..
+cmake -DCUDA_ENABLE=OFF ..
 make

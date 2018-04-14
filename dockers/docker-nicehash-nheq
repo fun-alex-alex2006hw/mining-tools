@@ -1,2 +1,2 @@
 DATE=$(date +%Y%m%d%s)
-docker run -d --name nicehash-nheqminer alex2006hw/nheqminer:1.0.0 /nheqminer -l equihash.eu.nicehash.com:3357 -u 3Nvhv1rPUztPbTwskkcAbo75t7x1fmnoEp -p x --donate-level 0 -t 1
+docker run -d --name nicehash-nheqminer alex2006hw/nheqminer:1.0.0 /nheqminer -l equihash.eu.nicehash.com:3357 -u 3Nvhv1rPUztPbTwskkcAbo75t7x1fmnoEp -p x --donate-level 0 -t 32

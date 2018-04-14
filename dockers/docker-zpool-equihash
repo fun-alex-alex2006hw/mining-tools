@@ -1,4 +1,4 @@
 DATE=$(date +%Y%m%d%s)
 docker run -d --name zpool-nheqminer alex2006hw/nheqminer:1.0.0 /nheqminer \
   -l equihash.mine.zpool.ca:2142 \
-  -u 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631 -p x -t 1
+  -u 1KCuz54kYMDUJxqTLRCzLsv1HjHQnqp631 -p x -t 16

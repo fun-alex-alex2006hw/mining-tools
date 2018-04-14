@@ -1,2 +1,1 @@
-docker run --rm -it -u $(id -u):$(id -g) --name monero -v "$PWD":/mnt alex2006hw/xmrminer:1.0.1
-#--config config.txt
+docker run --rm -it -u $(id -u):$(id -g) --name monero -v "$PWD":/mnt alex2006hw/xmrminer:1.0.1 --config config.txt
